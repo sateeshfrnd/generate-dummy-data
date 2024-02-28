@@ -14,6 +14,23 @@ You can install the Faker library using conda:
 ```
 conda install -c conda-forge faker
 ```
+## Install offline
+To install Python packages offline, including the faker library, you typically need to download the package files (.whl or .tar.gz) along with its dependencies and then install them manually. 
+
+
+**1. Download the Package Files:**
+Download the file from Python Package Index (PyPI) website: [Faker](https://pypi.org/project/Faker/#files)
+
+**2. Transfer Files to your Environment:**
+Transfer the downloaded files to your offline environment.
+
+**3. Install the Package:**
+Use pip to install the package. For example, if you downloaded the .whl file:
+```
+pip install <downloaded_dir>/faker-x.x.x.whl
+```
+
+*Replace x.x.x with the version number you downloaded.*
 
 ## Usage
-[How to use Faker library]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/sateeshfrnd/generate-dummy-data/blob/main/generate-dummy-data.ipynb)https://github.com/sateeshfrnd/generate-dummy-data/blob/main/generate-dummy-data.ipynb)
+[How to use Faker library](https://github.com/sateeshfrnd/generate-dummy-data/blob/main/generate-dummy-data.ipynb)
